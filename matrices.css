@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+}
+/* body{
+    cursor: e-resize;
+} */
+div.btn{
+    /* background-color: aquamarine; */
+    margin: 0 auto;
+    width: 50%;
+}
+div.btn button{
+    padding: 1em 4em;
+    border-radius: 10px;
+    background-color: #ff3344;
+    color: #fff;
+    cursor: pointer;
+    border: 2px solid #ff3344;
+    }
+    div.btn button:hover{
+        background-color: #fff;
+        color: #ff3344;
+    }
+ section {
+    display: none;
+    visibility: hidden;
+ }
+.show{
+    display: contents;
+    visibility: visible;
+}
+.hide{
+    display: none;
+    visibility: hidden;
+}
+div.inputtwo{
+        margin: 2% auto;
+        width: 35%;
+    gap: 2em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* background-color: #334   4ff; */
+}
+div.inputtwo input{
+    border: 2px solid #ff3344;
+    width: 7em;
+    padding: 3em;
+    border-radius: 20px;
+    outline: none;
+}
+/* div.inputtwo input:nth-child(2){
+    display: block;
+} */
+section.twoby button{
+    cursor: pointer;
+    position: relative;
+    /* left: 36em;
+    top: 1.5em; */
+    background-color: #ff3344;
+    color: #fff;
+    padding: 1em 3em;
+    border: 1px solid #ff3344;
+    border-radius: 30px;
+}
+section.twoby button:hover{
+    background-color: #fff;
+    color: #ff3344;
+}
+section.twoby p{
+    padding: 2em 0;
+}
+section.twoby{
+    text-align: center;
+    color: #ff3344;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+section.threeby button{
+    cursor: pointer;
+    position: relative;
+                    /* left: 36em;
+                    top: 1.5em; */
+    background-color: #ff3344;
+    color: #fff;
+    padding: 1em 3em;
+    border: 1px solid #ff3344;
+    border-radius: 30px;
+}
+section.threeby button:hover{
+    background-color: #fff;
+    color: #ff3344;
+}
+section.threeby p{
+    padding: 2em 0;
+}
+section.threeby{
+    text-align: center;
+    color: #ff3344;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+div.inputthree{
+    margin: 2% auto;
+    width: 47%;
+gap: 2em;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+/* background-color: #3344ff; */
+}
+div.inputthree input{
+border: 2px solid #ff3344;
+width: 7em;
+padding: 3em;
+border-radius: 20px;
+outline: none;
+}
